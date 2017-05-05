@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="shawfadetech.weston.shawfade19.Fragments.NewUserCreate"
+        android:title="Basic Settings"
+        android:summary="Basic Application Settings"/>
+    <header
+        android:fragment="com.tovuti.mtmeru.fragments.RefNumber"
+        android:title="Reference Number"
+        android:summary="REF Number Settings"/>
+    <header
+        android:fragment="shawfadetech.weston.shawfade19.Fragments.NewUserCreate"
+        android:title="Advanced"
+        android:summary="Advanced Application Settings"/>
+</preference-headers>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item android:title="Account">
+       <menu>
+           <group android:checkableBehavior="single">
+               <item
+                   android:id="@+id/nav_Account"
+                   android:title="Accademic info" />
+              <!-- <item
+                   android:id="@+id/nav_New"
+                   android:title="Create New" />-->
+               <item
+                   android:id="@+id/nav_reset"
+                   android:title="Reset Password" />
+               <item
+                   android:id="@+id/nav_viewusers"
+                   android:title="View Current Users" />
+               <item
+                   android:id="@+id/nav_accsettings"
+                   android:title="Account Settings" />
+
+           </group>
+       </menu>
+   </item>
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_notification"
+                    android:title="Notifications" />
+                <item
+                    android:id="@+id/nav_AskExtension"
+                    android:title="Ask For Extension" />
+            </group>
+        </menu>
+    </item>
+   <item android:title="Finance">
+       <menu>
+           <group android:checkableBehavior="single">
+               <item
+                   android:id="@+id/nav_finance"
+                   android:title="Make Payments" />
+               <item
+                   android:id="@+id/nav_CheckFinances"
+                   android:title="Check Status" />
+           </group>
+       </menu>
+   </item>
+
+   <item android:title="Settings">
+       <menu>
+           <group android:checkableBehavior="single">
+               <item
+                   android:id="@+id/nav_settings"
+                   android:title="App Settings" />
+               <item
+                   android:id="@+id/nav_contactus"
+                   android:title="Contact Us" />
+               <item
+                   android:id="@+id/nav_privacy"
+                   android:title="Privacy Policy" />
+           </group>
+       </menu>
+   </item>
+
+    <item android:title="Miscellaneous">
+        <menu>
+             <item
+                android:id="@+id/nav_share"
+                android:title="Share This App"/>
+
+            <item
+                android:id="@+id/nav_rateus"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_more"
+                android:title="More Apps" />
+            <item
+                android:id="@+id/nav_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+
+</menu>
